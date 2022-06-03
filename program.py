@@ -1,10 +1,6 @@
 def collatz_conjecture(n=5):
-    steps = 0 
-
-    if n == 1:
-        print('Zero steps required, number is already one')
-        return
-
+    steps = 0
+    
     while True:
         if n == 1:
             print('Done')
